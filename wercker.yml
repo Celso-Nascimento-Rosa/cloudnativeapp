@@ -10,7 +10,7 @@ build:
     - npm-test
     - script:
         name: echo nodejs information
-        # Here we are declaring an environment variable to use it latter in our application
+        # Here we are declaring an environment variable to use it latter in our application ok
         code: |
           export DBURI=$DBURI
           echo $DBURI
